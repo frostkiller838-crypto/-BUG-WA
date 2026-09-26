@@ -1,0 +1,11 @@
+FIXED INSTALL
+
+1. Upload/replace these files with this ZIP.
+2. Delete node_modules if present.
+3. Run:
+   npm install
+4. Then:
+   npm start
+
+IMPORTANT:
+The old @bellachu/litebails package was pulling a GitHub libsignal dependency that npm refused to fetch. This package now aliases that import to the official @whiskeysockets/baileys 6.7.24 package, while keeping the existing source import unchanged.
